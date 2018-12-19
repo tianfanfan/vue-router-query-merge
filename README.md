@@ -42,7 +42,7 @@ methods:{
         // meas: router new query replace
         this.$routerNQrep({bar: 'bar'})
         // it will change query , only { bar: bar },use replace
-        // 这个函数会添加新的 query ，并重定向。
+        // 这个函数会用全新的 query ，并重定向。
   }
 }
 ```
